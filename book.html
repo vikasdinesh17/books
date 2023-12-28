@@ -1,0 +1,23 @@
+<body>
+    <div class="container">
+      <link rel="stylesheet" href="book.css">
+      <p>
+        <label for="new-task">book title</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>book author</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>book author</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>added books</label><input type="text" value=""><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>published year</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="book.js"></script>
+
+  </body>
